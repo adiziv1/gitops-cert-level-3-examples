@@ -11,7 +11,7 @@ spec:
       github:
         owner: adiziv1
         repo: gitops-cert-level-3-examples
-      requeueAfterSeconds: 180
+      requeueAfterSeconds: 60
   template:
     metadata:
       name: 'myapp-{{.branch}}'
